@@ -1,4 +1,32 @@
+
+# Python virtual environments
 venv/
+.venv/
+
+# Python caches
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
-*.pyc
+
+# Local secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local tracking databases
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local backups
+app_backup_before_changes.py
+app_before_next_day_integration.py
+src/app_before_terminal_redesign.py
+src/next_day_predictor_backup.py
+train_old_backup.py
