@@ -4,8 +4,8 @@ import yfinance as yf
 from datetime import datetime, time
 from zoneinfo import ZoneInfo
 
-from src.stock_search import search_stocks
-from src.next_day_predictor import train_and_predict_next_close
+from stock_search import search_stocks
+from next_day_predictor import train_and_predict_next_close
 
 
 # --------------------------------------------------
